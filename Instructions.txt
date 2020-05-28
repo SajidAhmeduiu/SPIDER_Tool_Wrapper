@@ -1,0 +1,22 @@
+1) Install Anaconda from (https://docs.anaconda.com/anaconda/install/)
+
+2) Activate Anaconda
+
+3) Create a python 2.7 conda environment using the command (conda create --environment_name py2 python=2.7)
+
+4) Activate the environment using the command (conda activate environment_name)
+
+5) Now, navigate to the location where you have stored "pssm_input_SPIDER_output.py" file and "dat" folder containing the trained neural
+network parameter files required for predicting structural properties from PSSM files in the python file.
+
+6) Store your PSSM files in a folder in the same location where you have previously stored the python file and the dat folder.
+
+7) Create a folder in the same location as the PSSM folder for storing the output .spd3 files.
+
+8) run the command (python pssm_input_SPIDER_output.py PSSM_Directory SPIDER_output_Directory) where PSSM_Directory is the folder
+containing your PSSM files with .pssm extension and SPIDER_output_Directory is the folder containing the corresponding output files with
+.spd3 extension.
+
+ ----------------------Contact (sahmed133002@bscse.uiu.ac.bd) in case of any confusion.------------------------
+ 
+ **********************Thank you.**********************
